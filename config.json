@@ -1,0 +1,21 @@
+{
+    "settings":{
+	"form":"https://www.sneakerdistrict.com/wotherspoon/app/ajax/form-submit.php",
+	"catchalldomain":"ukcarts.co.uk",
+        "randomnames":"True",
+        "setfirst":"SL34K",
+	"setlast":"SL34K",
+        "signupdelay":"10",
+	"randomsizes":"True",
+	"size":"EUR 44 | US 10",
+	"randomDOB":"True",
+	"randomDOBupper":"2000",
+	"randomDOBlower":"1990",
+	"setDOBday":"01",
+	"setDOBmonth":"01",
+	"setDOByear":"1999",
+	"location":"Amsterdam",
+        "useproxy":"False",
+	"proxy":"ip:port:username:password"
+    }
+}

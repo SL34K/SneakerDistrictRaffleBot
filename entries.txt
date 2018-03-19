@@ -1,0 +1,1 @@
+(first,	last,	day,	month,	year,	email,	instaUsername,	size,	location)
