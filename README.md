@@ -12,3 +12,9 @@ Python bot for SneakersDirect designed for the wotherspoon raffle, uses actual i
 3) Edit your details in config.json
 
 4) Run main.py and let it enter
+
+# Use common sense, any issues shoot me a discord or twitter message.
+
+Twitter: @SL34K
+
+Discord: Sleak#4391
