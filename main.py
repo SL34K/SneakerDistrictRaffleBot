@@ -39,7 +39,10 @@ def proxysession(proxy):
     return sesh
     #first,last,day,month,year,email,instaUsername,size,location
 def post(sesh,url,first,last,day,month,year,email,instaUsername,size,location,delay):
-    instaUsername = instaUsername.split('\n')[0]
+    try:
+        instaUsername = instaUsername.split('\n')[0]
+    except:
+        instaUsername = str(instaUsername)
     data = {
         'form_fields[0][name]': 'first_name',
         'form_fields[0][value]': first,
