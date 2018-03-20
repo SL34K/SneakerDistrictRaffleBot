@@ -12,10 +12,8 @@
 #00110001 00111000 
 #########################################
 import csv
-f = open('100_followers.csv', 'rb')
 csv_row = []
 usernames = []
-reader = csv.reader("100_followers.csv", delimiter="\n")
 try:
     for line,line_num in enumerate(open("100_followers.csv", 'rb')):
         csv_row.append(line_num.split())
