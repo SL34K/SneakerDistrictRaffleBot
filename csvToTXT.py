@@ -19,10 +19,9 @@ try:
         csv_row.append(line_num.split())
         test = csv_row[line][0].decode('UTF-8')
         usernames.append((test.split(',')[1][1:-1]))
-except:
-    f = open("usernames.txt",'a')
-    for i in usernames:
-        f.write(i+'\n')
+f = open("usernames.txt",'a')
+for i in usernames:
+    f.write(i+'\n')
     f.close() 
     print("Saved to usernames.txt")
 
