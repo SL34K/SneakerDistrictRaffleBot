@@ -14,14 +14,12 @@
 import csv
 csv_row = []
 usernames = []
-try:
-    for line,line_num in enumerate(open("100_followers.csv", 'rb')):
-        csv_row.append(line_num.split())
-        test = csv_row[line][0].decode('UTF-8')
-        usernames.append((test.split(',')[1][1:-1]))
-f = open("usernames.txt",'a')
+for line,line_num in enumerate(open("100_followers.csv", 'rb')):
+    csv_row.append(line_num.split())
+    test = csv_row[line][0].decode('UTF-8')
+    usernames.append((test.split(',')[1][1:-1]))
+f= open("usernames.txt","r")
 for i in usernames:
     f.write(i+'\n')
     f.close() 
     print("Saved to usernames.txt")
-
