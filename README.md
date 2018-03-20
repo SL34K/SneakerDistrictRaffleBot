@@ -1,5 +1,5 @@
-# SneakersDirectRaffleBot
-Python bot for SneakersDirect designed for the wotherspoon raffle, uses actual instagram handles that follow their instagram account.
+# SneakerDirectRaffleBot
+Python bot for SneakerDirect designed for the wotherspoon raffle, uses actual instagram handles that follow their instagram account.
 
 Made for Python3
 
